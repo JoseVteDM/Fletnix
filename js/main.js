@@ -23,7 +23,7 @@ const call = async (url) => {
     
     return res.data.results;
 }
-/*
+
 
 const pintar = async (coleccionPintar) => {
     //Proceso para el pintado HTML de las películas
