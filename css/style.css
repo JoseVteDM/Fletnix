@@ -1,0 +1,23 @@
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.Peliculas {
+    width: 50em;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-gap: 1em;
+}
+
+.Peliculas img{
+    width: 100%;
+}
+.infoPelis{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}

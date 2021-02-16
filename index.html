@@ -2,17 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    
+    <title>Buscador de pelis</title>
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-
-
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
-    <script src="js/app.js"></script>
+    <input id="buscador" type="text" placeholder="titulo">
+    <button onclick="buscador()">Buscar</button>
+    <br>
+    <input id="buscadorID" type="text" placeholder="id">
+    <button onclick="buscadorID()">Buscar</button>
+    
+    <div id="contenedor"></div>
+
+
+    <script lang="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
